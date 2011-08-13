@@ -16,6 +16,12 @@
 		245AA55513F67B7200DC8557 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245AA55313F67B7200DC8557 /* MainStoryboard.storyboard */; };
 		245AA55813F67B7300DC8557 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA55713F67B7300DC8557 /* MasterViewController.m */; };
 		245AA55B13F67B7300DC8557 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA55A13F67B7300DC8557 /* DetailViewController.m */; };
+		245AA5A913F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA58813F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.m */; };
+		245AA5AA13F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA58A13F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.m */; };
+		245AA5AB13F67BAB00DC8557 /* DCTStoryboarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA58C13F67BAB00DC8557 /* DCTStoryboarding.m */; };
+		245AA5AC13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA58E13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.m */; };
+		245AA5AD13F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA59013F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.m */; };
+		245AA5AE13F67BAB00DC8557 /* UIViewController+DCTStoryboarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA59213F67BAB00DC8557 /* UIViewController+DCTStoryboarding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +29,29 @@
 		245AA54113F67B7200DC8557 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		245AA54313F67B7200DC8557 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		245AA54513F67B7200DC8557 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		245AA54913F67B7200DC8557 /* DCTStoryboardingDemo-Info.plist */ = {isa = PBXFileReference; path = "DCTStoryboardingDemo-Info.plist"; sourceTree = "<group>"; };
+		245AA54913F67B7200DC8557 /* DCTStoryboardingDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTStoryboardingDemo-Info.plist"; sourceTree = "<group>"; };
 		245AA54B13F67B7200DC8557 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		245AA54D13F67B7200DC8557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		245AA54F13F67B7200DC8557 /* DCTStoryboardingDemo-Prefix.pch */ = {isa = PBXFileReference; path = "DCTStoryboardingDemo-Prefix.pch"; sourceTree = "<group>"; };
-		245AA55013F67B7200DC8557 /* DCTStoryboardingDemoAppDelegate.h */ = {isa = PBXFileReference; path = DCTStoryboardingDemoAppDelegate.h; sourceTree = "<group>"; };
+		245AA54F13F67B7200DC8557 /* DCTStoryboardingDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTStoryboardingDemo-Prefix.pch"; sourceTree = "<group>"; };
+		245AA55013F67B7200DC8557 /* DCTStoryboardingDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTStoryboardingDemoAppDelegate.h; sourceTree = "<group>"; };
 		245AA55113F67B7200DC8557 /* DCTStoryboardingDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTStoryboardingDemoAppDelegate.m; sourceTree = "<group>"; };
 		245AA55413F67B7200DC8557 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		245AA55613F67B7200DC8557 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		245AA55613F67B7200DC8557 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		245AA55713F67B7300DC8557 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		245AA55913F67B7300DC8557 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		245AA55913F67B7300DC8557 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		245AA55A13F67B7300DC8557 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		245AA58713F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTNonAnimatedPresentStoryboardSegue.h; sourceTree = "<group>"; };
+		245AA58813F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTNonAnimatedPresentStoryboardSegue.m; sourceTree = "<group>"; };
+		245AA58913F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTNonAnimatedPushStoryboardSegue.h; sourceTree = "<group>"; };
+		245AA58A13F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTNonAnimatedPushStoryboardSegue.m; sourceTree = "<group>"; };
+		245AA58B13F67BAB00DC8557 /* DCTStoryboarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTStoryboarding.h; sourceTree = "<group>"; };
+		245AA58C13F67BAB00DC8557 /* DCTStoryboarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTStoryboarding.m; sourceTree = "<group>"; };
+		245AA58D13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DCTStoryboarding.h"; sourceTree = "<group>"; };
+		245AA58E13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DCTStoryboarding.m"; sourceTree = "<group>"; };
+		245AA58F13F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+DCTStoryboarding.h"; sourceTree = "<group>"; };
+		245AA59013F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+DCTStoryboarding.m"; sourceTree = "<group>"; };
+		245AA59113F67BAB00DC8557 /* UIViewController+DCTStoryboarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DCTStoryboarding.h"; sourceTree = "<group>"; };
+		245AA59213F67BAB00DC8557 /* UIViewController+DCTStoryboarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DCTStoryboarding.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,7 @@
 		245AA53213F67B7200DC8557 = {
 			isa = PBXGroup;
 			children = (
+				245AA56113F67BAB00DC8557 /* DCTStoryboarding */,
 				245AA54713F67B7200DC8557 /* DCTStoryboardingDemo */,
 				245AA54013F67B7200DC8557 /* Frameworks */,
 				245AA53E13F67B7200DC8557 /* Products */,
@@ -101,6 +120,25 @@
 				245AA54F13F67B7200DC8557 /* DCTStoryboardingDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		245AA56113F67BAB00DC8557 /* DCTStoryboarding */ = {
+			isa = PBXGroup;
+			children = (
+				245AA58713F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.h */,
+				245AA58813F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.m */,
+				245AA58913F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.h */,
+				245AA58A13F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.m */,
+				245AA58B13F67BAB00DC8557 /* DCTStoryboarding.h */,
+				245AA58C13F67BAB00DC8557 /* DCTStoryboarding.m */,
+				245AA58D13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.h */,
+				245AA58E13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.m */,
+				245AA58F13F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.h */,
+				245AA59013F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.m */,
+				245AA59113F67BAB00DC8557 /* UIViewController+DCTStoryboarding.h */,
+				245AA59213F67BAB00DC8557 /* UIViewController+DCTStoryboarding.m */,
+			);
+			path = DCTStoryboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +207,12 @@
 				245AA55213F67B7200DC8557 /* DCTStoryboardingDemoAppDelegate.m in Sources */,
 				245AA55813F67B7300DC8557 /* MasterViewController.m in Sources */,
 				245AA55B13F67B7300DC8557 /* DetailViewController.m in Sources */,
+				245AA5A913F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.m in Sources */,
+				245AA5AA13F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.m in Sources */,
+				245AA5AB13F67BAB00DC8557 /* DCTStoryboarding.m in Sources */,
+				245AA5AC13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.m in Sources */,
+				245AA5AD13F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.m in Sources */,
+				245AA5AE13F67BAB00DC8557 /* UIViewController+DCTStoryboarding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
