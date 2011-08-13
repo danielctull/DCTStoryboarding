@@ -19,15 +19,13 @@
 	
 	__block NSInteger i = 0;
 	
-	[segue.destinationViewController dct_recursivelyEnumerateViewControllersUsingBlock:^(UIViewController *viewController) {
+	[segue.destinationViewController dct_recursivelyEnumerateViewControllersUsingBlock:^(DetailViewController *viewController) {
 		
 		i++;
 		
 		if (![viewController isKindOfClass:[DetailViewController class]]) return;
 		
-		DetailViewController *detailVC = (DetailViewController *)viewController;
-		
-		detailVC.detailDescription = [NSString stringWithFormat:@"Recursive index %i", i];
+		viewController.detailDescription = [NSString stringWithFormat:@"Recursive index %i", i];
 	}];
 }
 
