@@ -14,4 +14,13 @@
 	return self;
 }
 
+- (void)dct_recursivelyEnumerateViewControllersUsingBlock:(void (^)(UIViewController *viewController))block {
+	
+	block(self);
+	
+	[self.childViewControllers enumerateObjectsUsingBlock:^(UIViewController *viewController, NSUInteger idx, BOOL *stop) {
+		[viewController dct_recursivelyEnumerateViewControllersUsingBlock:block];
+	}];
+}
+
 @end
