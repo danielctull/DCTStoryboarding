@@ -11,5 +11,15 @@
 @implementation DetailViewController
 
 @synthesize detailDescriptionLabel;
+@synthesize detailDescription;
+
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	self.detailDescriptionLabel.text = self.detailDescription;
+}
+
+- (IBAction)dismiss:(id)sender {
+	[self dismissModalViewControllerAnimated:YES];
+}
 
 @end

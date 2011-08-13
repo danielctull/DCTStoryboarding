@@ -12,18 +12,22 @@
 
 @implementation MasterViewController
 
+
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
 	[super prepareForSegue:segue sender:sender];
 	
-	id destination = [segue.destinationViewController dct_visibleMostChildViewController];
+	__block NSInteger i = 0;
 	
-	[destination dct_recursivelyEnumerateViewControllersUsingBlock:^(UIViewController *viewController) {
+	[segue.destinationViewController dct_recursivelyEnumerateViewControllersUsingBlock:^(UIViewController *viewController) {
 		
-		if (![destination isKindOfClass:[DetailViewController class]]) return;
+		i++;
 		
+		if (![viewController isKindOfClass:[DetailViewController class]]) return;
 		
+		DetailViewController *detailVC = (DetailViewController *)viewController;
 		
-		
+		detailVC.detailDescription = [NSString stringWithFormat:@"Recursive index %i", i];
 	}];
 }
 

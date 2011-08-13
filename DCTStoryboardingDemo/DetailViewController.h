@@ -12,4 +12,8 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
+@property (nonatomic, copy) NSString *detailDescription;
+
+- (IBAction)dismiss:(id)sender;
+
 @end
