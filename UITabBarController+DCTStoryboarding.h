@@ -1,5 +1,5 @@
 //
-//  DCTStoryboarding.h
+//  UITabBarController+DCTStoryboarding.h
 //  Issues
 //
 //  Created by Daniel Tull on 13.08.2011.
@@ -7,3 +7,7 @@
 //
 
 #import "UIViewController+DCTStoryboarding.h"
+
+@interface UITabBarController (DCTStoryboarding)
+
+@end
