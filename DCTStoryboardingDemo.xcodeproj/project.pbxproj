@@ -167,6 +167,7 @@
 		245AA53413F67B7200DC8557 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Daniel Tull";
 			};
 			buildConfigurationList = 245AA53713F67B7200DC8557 /* Build configuration list for PBXProject "DCTStoryboardingDemo" */;
@@ -324,6 +325,7 @@
 				245AA56013F67B7300DC8557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

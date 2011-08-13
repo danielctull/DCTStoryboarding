@@ -25,7 +25,9 @@
 		
 		if (![viewController isKindOfClass:[DetailViewController class]]) return;
 		
-		viewController.detailDescription = [NSString stringWithFormat:@"Recursive index %i", i];
+		[viewController view];
+		
+		viewController.detailDescriptionLabel.text = [NSString stringWithFormat:@"Recursive index %i", i];
 	}];
 }
 
