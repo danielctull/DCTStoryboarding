@@ -12,6 +12,6 @@
 
 - (UIViewController *)dct_visibleMostChildViewController;
 
-- (void)dct_recursivelyEnumerateViewControllersUsingBlock:(void (^)(UIViewController *viewController))block;
+- (void)dct_recursivelyEnumerateViewControllersUsingBlock:(void (^)(id viewController))block;
 
 @end
