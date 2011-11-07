@@ -8,7 +8,7 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
-#import "DCTStoryboarding.h"
+#import "UIViewController+DCTStoryboarding.h"
 
 @implementation MasterViewController
 

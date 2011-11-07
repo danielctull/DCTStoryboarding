@@ -16,12 +16,12 @@
 		245AA55513F67B7200DC8557 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245AA55313F67B7200DC8557 /* MainStoryboard.storyboard */; };
 		245AA55813F67B7300DC8557 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA55713F67B7300DC8557 /* MasterViewController.m */; };
 		245AA55B13F67B7300DC8557 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA55A13F67B7300DC8557 /* DetailViewController.m */; };
-		245AA5A913F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA58813F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.m */; };
-		245AA5AA13F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA58A13F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.m */; };
-		245AA5AB13F67BAB00DC8557 /* DCTStoryboarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA58C13F67BAB00DC8557 /* DCTStoryboarding.m */; };
-		245AA5AC13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA58E13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.m */; };
-		245AA5AD13F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA59013F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.m */; };
-		245AA5AE13F67BAB00DC8557 /* UIViewController+DCTStoryboarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 245AA59213F67BAB00DC8557 /* UIViewController+DCTStoryboarding.m */; };
+		24E53B901467F96A0029489E /* DCTNonAnimatedPresentStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E53B861467F96A0029489E /* DCTNonAnimatedPresentStoryboardSegue.m */; };
+		24E53B911467F96A0029489E /* DCTNonAnimatedPushStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E53B881467F96A0029489E /* DCTNonAnimatedPushStoryboardSegue.m */; };
+		24E53B921467F96A0029489E /* Readme.textile in Resources */ = {isa = PBXBuildFile; fileRef = 24E53B891467F96A0029489E /* Readme.textile */; };
+		24E53B931467F96A0029489E /* UINavigationController+DCTStoryboarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E53B8B1467F96A0029489E /* UINavigationController+DCTStoryboarding.m */; };
+		24E53B941467F96A0029489E /* UITabBarController+DCTStoryboarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E53B8D1467F96A0029489E /* UITabBarController+DCTStoryboarding.m */; };
+		24E53B951467F96A0029489E /* UIViewController+DCTStoryboarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E53B8F1467F96A0029489E /* UIViewController+DCTStoryboarding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,18 +40,17 @@
 		245AA55713F67B7300DC8557 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		245AA55913F67B7300DC8557 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		245AA55A13F67B7300DC8557 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		245AA58713F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTNonAnimatedPresentStoryboardSegue.h; sourceTree = "<group>"; };
-		245AA58813F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTNonAnimatedPresentStoryboardSegue.m; sourceTree = "<group>"; };
-		245AA58913F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTNonAnimatedPushStoryboardSegue.h; sourceTree = "<group>"; };
-		245AA58A13F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTNonAnimatedPushStoryboardSegue.m; sourceTree = "<group>"; };
-		245AA58B13F67BAB00DC8557 /* DCTStoryboarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTStoryboarding.h; sourceTree = "<group>"; };
-		245AA58C13F67BAB00DC8557 /* DCTStoryboarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTStoryboarding.m; sourceTree = "<group>"; };
-		245AA58D13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DCTStoryboarding.h"; sourceTree = "<group>"; };
-		245AA58E13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DCTStoryboarding.m"; sourceTree = "<group>"; };
-		245AA58F13F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+DCTStoryboarding.h"; sourceTree = "<group>"; };
-		245AA59013F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+DCTStoryboarding.m"; sourceTree = "<group>"; };
-		245AA59113F67BAB00DC8557 /* UIViewController+DCTStoryboarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DCTStoryboarding.h"; sourceTree = "<group>"; };
-		245AA59213F67BAB00DC8557 /* UIViewController+DCTStoryboarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DCTStoryboarding.m"; sourceTree = "<group>"; };
+		24E53B851467F96A0029489E /* DCTNonAnimatedPresentStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTNonAnimatedPresentStoryboardSegue.h; sourceTree = "<group>"; };
+		24E53B861467F96A0029489E /* DCTNonAnimatedPresentStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTNonAnimatedPresentStoryboardSegue.m; sourceTree = "<group>"; };
+		24E53B871467F96A0029489E /* DCTNonAnimatedPushStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTNonAnimatedPushStoryboardSegue.h; sourceTree = "<group>"; };
+		24E53B881467F96A0029489E /* DCTNonAnimatedPushStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTNonAnimatedPushStoryboardSegue.m; sourceTree = "<group>"; };
+		24E53B891467F96A0029489E /* Readme.textile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.textile; sourceTree = "<group>"; };
+		24E53B8A1467F96A0029489E /* UINavigationController+DCTStoryboarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DCTStoryboarding.h"; sourceTree = "<group>"; };
+		24E53B8B1467F96A0029489E /* UINavigationController+DCTStoryboarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DCTStoryboarding.m"; sourceTree = "<group>"; };
+		24E53B8C1467F96A0029489E /* UITabBarController+DCTStoryboarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+DCTStoryboarding.h"; sourceTree = "<group>"; };
+		24E53B8D1467F96A0029489E /* UITabBarController+DCTStoryboarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+DCTStoryboarding.m"; sourceTree = "<group>"; };
+		24E53B8E1467F96A0029489E /* UIViewController+DCTStoryboarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DCTStoryboarding.h"; sourceTree = "<group>"; };
+		24E53B8F1467F96A0029489E /* UIViewController+DCTStoryboarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DCTStoryboarding.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +70,7 @@
 		245AA53213F67B7200DC8557 = {
 			isa = PBXGroup;
 			children = (
-				245AA56113F67BAB00DC8557 /* DCTStoryboarding */,
+				24E53B841467F96A0029489E /* DCTStoryboarding */,
 				245AA54713F67B7200DC8557 /* DCTStoryboardingDemo */,
 				245AA54013F67B7200DC8557 /* Frameworks */,
 				245AA53E13F67B7200DC8557 /* Products */,
@@ -122,21 +121,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		245AA56113F67BAB00DC8557 /* DCTStoryboarding */ = {
+		24E53B841467F96A0029489E /* DCTStoryboarding */ = {
 			isa = PBXGroup;
 			children = (
-				245AA58713F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.h */,
-				245AA58813F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.m */,
-				245AA58913F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.h */,
-				245AA58A13F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.m */,
-				245AA58B13F67BAB00DC8557 /* DCTStoryboarding.h */,
-				245AA58C13F67BAB00DC8557 /* DCTStoryboarding.m */,
-				245AA58D13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.h */,
-				245AA58E13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.m */,
-				245AA58F13F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.h */,
-				245AA59013F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.m */,
-				245AA59113F67BAB00DC8557 /* UIViewController+DCTStoryboarding.h */,
-				245AA59213F67BAB00DC8557 /* UIViewController+DCTStoryboarding.m */,
+				24E53B851467F96A0029489E /* DCTNonAnimatedPresentStoryboardSegue.h */,
+				24E53B861467F96A0029489E /* DCTNonAnimatedPresentStoryboardSegue.m */,
+				24E53B871467F96A0029489E /* DCTNonAnimatedPushStoryboardSegue.h */,
+				24E53B881467F96A0029489E /* DCTNonAnimatedPushStoryboardSegue.m */,
+				24E53B891467F96A0029489E /* Readme.textile */,
+				24E53B8A1467F96A0029489E /* UINavigationController+DCTStoryboarding.h */,
+				24E53B8B1467F96A0029489E /* UINavigationController+DCTStoryboarding.m */,
+				24E53B8C1467F96A0029489E /* UITabBarController+DCTStoryboarding.h */,
+				24E53B8D1467F96A0029489E /* UITabBarController+DCTStoryboarding.m */,
+				24E53B8E1467F96A0029489E /* UIViewController+DCTStoryboarding.h */,
+				24E53B8F1467F96A0029489E /* UIViewController+DCTStoryboarding.m */,
 			);
 			path = DCTStoryboarding;
 			sourceTree = "<group>";
@@ -194,6 +192,7 @@
 			files = (
 				245AA54C13F67B7200DC8557 /* InfoPlist.strings in Resources */,
 				245AA55513F67B7200DC8557 /* MainStoryboard.storyboard in Resources */,
+				24E53B921467F96A0029489E /* Readme.textile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,12 +207,11 @@
 				245AA55213F67B7200DC8557 /* DCTStoryboardingDemoAppDelegate.m in Sources */,
 				245AA55813F67B7300DC8557 /* MasterViewController.m in Sources */,
 				245AA55B13F67B7300DC8557 /* DetailViewController.m in Sources */,
-				245AA5A913F67BAB00DC8557 /* DCTNonAnimatedPresentStoryboardSegue.m in Sources */,
-				245AA5AA13F67BAB00DC8557 /* DCTNonAnimatedPushStoryboardSegue.m in Sources */,
-				245AA5AB13F67BAB00DC8557 /* DCTStoryboarding.m in Sources */,
-				245AA5AC13F67BAB00DC8557 /* UINavigationController+DCTStoryboarding.m in Sources */,
-				245AA5AD13F67BAB00DC8557 /* UITabBarController+DCTStoryboarding.m in Sources */,
-				245AA5AE13F67BAB00DC8557 /* UIViewController+DCTStoryboarding.m in Sources */,
+				24E53B901467F96A0029489E /* DCTNonAnimatedPresentStoryboardSegue.m in Sources */,
+				24E53B911467F96A0029489E /* DCTNonAnimatedPushStoryboardSegue.m in Sources */,
+				24E53B931467F96A0029489E /* UINavigationController+DCTStoryboarding.m in Sources */,
+				24E53B941467F96A0029489E /* UITabBarController+DCTStoryboarding.m in Sources */,
+				24E53B951467F96A0029489E /* UIViewController+DCTStoryboarding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
